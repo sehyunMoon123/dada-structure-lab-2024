@@ -134,6 +134,8 @@
     <ClInclude Include="헤더.h" />
     <ClInclude Include="SportsCar.h" />
     <ClInclude Include="rectangle.h" />
+    <ClInclude Include="smarthome.h" />
+    <ClInclude Include="MusicStreaming.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
