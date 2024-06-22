@@ -76,7 +76,7 @@ def problem3(input, N):
     return time
 
 
-# 사용자로부터 숲의 크기와 상태 입력받기
+# 입력받기
 while True:
     N = int(input("숲의 크기를 입력하세요: "))
     if 2 <= N <= 20:
@@ -91,7 +91,7 @@ for _ in range(N):
     forest_input.append(row)
 
 
-# 함수 실행 및 결과 출력
+# 결과 출력
 result = problem3(forest_input, N)
 
 print(result)
